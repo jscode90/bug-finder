@@ -1,0 +1,8 @@
+-c base.txt
+-c test.txt
+
+# Code quality
+pre-commit
+ruff
+mypy
+
