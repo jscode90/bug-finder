@@ -1,0 +1,17 @@
+# Byte-compiled
+__pycache__/
+
+# Environments
+.venv
+
+# Mypy
+.mypy_cache/
+
+# VSCode
+.vscode
+
+# MacOS
+.DS_Store
+
+# Pre-commit
+.pre-commit
