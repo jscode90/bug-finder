@@ -1,7 +1,8 @@
 [tool.ruff.lint]
 select = ["ALL"]
 # dashed-underline-after-section (D407)
-ignore = ["D407"]
+# assert (S101)
+ignore = ["D407", "S101"]
 
 [tool.ruff]
 exclude = [
