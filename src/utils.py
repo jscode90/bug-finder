@@ -13,10 +13,15 @@ def max_row_length(rows_list: list[list[str]]) -> int:
 def compare_characters(bug_char: str, test_char: str) -> bool:
     """Logic that compares two characters while ignoring white spaces.
 
+    The white spaces are only ignored if present in `bug_char`
+
     >>> compare_characters("a", "A")
     False
 
     >>> compare_characters("a", " ")
+    False
+
+    >>> compare_characters(" ", "a")
     True
     """
     check_result = False
